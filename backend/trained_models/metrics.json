@@ -1,0 +1,20 @@
+{
+    "linear_regression": {
+        "mae": 2478.95
+    },
+    "naive_bayes": {
+        "accuracy": 1.0
+    },
+    "knn": {
+        "accuracy": 0.946
+    },
+    "svm": {
+        "accuracy": 0.921
+    },
+    "decision_tree": {
+        "accuracy": 0.908
+    },
+    "ann": {
+        "accuracy": 0.92
+    }
+}

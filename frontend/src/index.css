@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark;
+  background: #080d18;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #071710;
+  background: #72e0b2;
+}
+
+:focus-visible {
+  outline: 2px solid #72e0b2;
+  outline-offset: 3px;
+}
